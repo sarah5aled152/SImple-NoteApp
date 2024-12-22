@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Note App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Note App</h1>
+
+      <div id="notes-container">
+        <!-- handled  with dom -->
+      </div>
+
+      <button id="add-note-btn">Add Note</button>
+
+      <div id="note-form" class="form-container">
+        <input type="text" id="note-title" placeholder="Note Title" />
+        <span id="title-error" class="error"></span>
+        <textarea
+          id="note-description"
+          placeholder="Note Description"
+        ></textarea>
+
+        <span id="description-error" class="error"></span>
+        <button id="save-note-btn">Save Note</button>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="index.js"></script>
+
+    <script type="module" src="validation.js"></script>
+  </body>
+</html>
