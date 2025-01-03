@@ -1,13 +1,8 @@
 # Simple Note App
 
 ## Overview
-The Simple Note App is a single-page application (SPA) that allows users to manage notes. Users can add, edit, and delete notes through a clean and user-friendly interface. This app uses vanilla JavaScript for functionality and demonstrates basic HTML, CSS, and JavaScript integration.
-
-## Features
-1. **Add Notes**: Users can click the "Add Note" button to open a form where they can input a note title and description.
-2. **Edit Notes**: Each note has an edit button, allowing users to modify the content.
-3. **Delete Notes**: Each note also includes a delete button for easy removal.
-4. **SPA Approach**: The app dynamically updates the DOM without page reloads.
+The Simple Note App is a single-page application (SPA) that allows users to manage notes. Users can add, edit, and delete notes.
+This app uses vanilla JavaScript for functionality and demonstrates basic HTML, CSS, and JavaScript integration.
 
 ## Folder Structure
 ```
@@ -56,18 +51,6 @@ Implements the core functionality of the app, including:
 - Deleting notes.
 
 ### **4. db.json**
-Serves as the mock database for storing notes. This file is used by JSON Server to simulate a REST API.
+Serves as the mock database for storing notes. This file is used by JSON Server.
 
-## How to Contribute
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m 'Add new feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
-
-## Future Enhancements
-1. Implement local storage to save notes between sessions.
-2. Add categories or tags for notes.
-3. Include search functionality to find notes quickly.
-4. Enhance the UI with animations and themes.
 
