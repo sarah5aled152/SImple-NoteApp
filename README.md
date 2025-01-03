@@ -9,7 +9,7 @@ This app uses vanilla JavaScript for functionality and demonstrates basic HTML, 
 project-folder/
 |-- index.html
 |-- app.js
-|-- styles.css
+|-- style.css
 |-- db.json
 ```
 
