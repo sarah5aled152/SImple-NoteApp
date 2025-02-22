@@ -1,7 +1,7 @@
 # Simple Note App
 
 ## Overview
-The Simple Note App is a single-page application (SPA) that allows users to manage notes. Users can add, edit, and delete notes.
+The Simple Note App allows users to manage notes. Users can add, edit, and delete notes.
 This app uses vanilla JavaScript for functionality and demonstrates basic HTML, CSS, and JavaScript integration.
 
 ## Folder Structure
@@ -49,7 +49,7 @@ Implements the core functionality of the app, including:
 - Adding notes.
 - Editing notes.
 - Deleting notes.
-
+- Fetching all notes
 ### **4. db.json**
 Serves as the mock database for storing notes. This file is used by JSON Server.
 
